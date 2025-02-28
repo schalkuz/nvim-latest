@@ -1,8 +1,6 @@
-# AstroNvim Template
+# Schalk's Latest Nvim config
 
-**NOTE:** This is for AstroNvim v4+
-
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+**NOTE:** This is based off of AstroNvim 4+
 
 ## 🛠️ Installation
 
@@ -15,16 +13,10 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/schalkuz/nvim-latest ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -32,3 +24,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Some things to note
+
+- I have a magical setup for Roslyn. There are some weird dependencies in installing this, so I cannot guarantee it will work in your case
